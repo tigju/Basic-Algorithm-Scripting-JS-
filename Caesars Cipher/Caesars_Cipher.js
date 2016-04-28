@@ -12,7 +12,7 @@ function rot13(str) { // LBH QVQ VG!
    	    charStr += key;
    		encodedStr += String.fromCharCode(charStr);
    } else {
-   	    charStr = (charStr + key)%26+(start-key);
+   	    charStr = (charStr + key)%26+(start - key);
    	    encodedStr += String.fromCharCode(charStr);
    }
   }
