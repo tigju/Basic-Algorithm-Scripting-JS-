@@ -18,3 +18,4 @@ function getIndexToIns(arr, num) {
   }
 }
 getIndexToIns([2, 5, 10], 15);
+
